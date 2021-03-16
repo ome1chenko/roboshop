@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ustore">    
+    <title>Ustore</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">            
+            <div class="header__logo">
+                <div class="header__ico">
+                <img src="./assets/images/logo.png" alt="">
+                 </div>
+                <div class="header__title">ROBOSHOP</div>
+            </div>                  
+            <div class="header__nav">
+                <div class="header__nav-about">About</div>
+                <div class="header__nav-service">Service</div>
+                <div class="header__nav-contact">Contact</div>
+            </div>                                    
+            <div class="shoping-cart">       
+                <div class="shoping-cart__block">
+                    <img src="./assets/images/shop.png" alt="">
+                    <div class="shoping-cart__amount-goods">0</div>  
+                    
+                    <div class="shoping-cart__window">
+                        <div class="shoping-cart__content"></div>
+                    </div>  
+                </div>            
+                    
+            </div>
+        </div>
+        <div class="breadcrumb">
+            Home / Catalog
+        </div>
+        
+        <div class="filter">
+            <form class = "filter__form">
+            <div>
+                <input type="button" class="filter__reset" value = "Reset filter"> 
+            </div>              
+            <div class="filter__vendor">                
+                    <div>Vendor</div>
+                    <input type="checkbox" class="filter__edit">
+                    <label for="">BDynamics</label><br>
+                    <input type="checkbox" class="filter__edit">           
+                    <label for="">iRobot</label><br>
+                    <input type="checkbox" class="filter__edit">                  
+                    <label for="">Ecovacs</label><br>
+                    <input type="checkbox" class="filter__edit">                   
+                    <label for="">Neato</label><br>
+                    <input type="checkbox" class="filter__edit">                   
+                    <label for="">Yujin</label><br>
+
+            </div>
+            <div class="filter__price">
+                <div>Price</div>            
+                <input type="range" class="filter__price-slide" min="1000" max="5000">
+                <input type="text" class="filter__price-edit" readonly>            
+                             
+            </div>
+            <div class="filter__availability">
+                <div class="filter__aviable">Availability</div>
+                <input type="radio" name = "availability" class="filter__edit">
+                <label for="">Aviable</label> <br>
+                <input type="radio" name = "availability" class="filter__edit">               
+                <label for="">Not aviable</label>
+            </div>
+            <div class="filter__status">
+                <div>Status</div>
+                <input type="checkbox" class="filter__edit"> 
+                <label for="">New</label><br>
+                <input type="checkbox" class="filter__edit"> 
+                <label for="">Discount</label><br>
+                <input type="checkbox" class="filter__edit"> 
+                <label for="">Bestseller</label><br>
+            </div>
+            </form>
+
+        </div>
+        
+        <div class="catalog">
+            <div class="catalog__block">                
+            </div>
+            <div class="pagination">
+                <div class="pagination__block">            
+                </div>        
+            </div>            
+        </div>        
+        <div class="footer">
+            <div>
+                Copyright 2021 | ROBOSHOP | All Rights Reserved
+            </div>
+            <div>
+                Terms of Service | Privacy Policy
+            </div>
+        </div>
+    </div>
+</body>
+</html>
